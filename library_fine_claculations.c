@@ -1,3 +1,6 @@
+/*Cyrus Mahugu
+BCS-05-0551/2026
+Library Fine Calculations*/
 #include <stdio.h>
 
 int main() {
