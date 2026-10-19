@@ -1,15 +1,13 @@
 #include <stdio.h>
-//taking user input using scanf 
+
 	
 
 int main() {
-    // Variable declarations with appropriate data types
     float height;         
     double bankBalance;   
     char phoneNumber[11];  
                            
 
-    // Prompt and collect user inputs
     printf("--- Enter User Details ---\n");
 
     printf("Enter your height (in meters, e.g., 1.75): ");
