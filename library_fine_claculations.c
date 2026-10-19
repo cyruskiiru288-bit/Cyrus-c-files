@@ -4,7 +4,7 @@ Library Fine Calculations*/
 #include <stdio.h>
 
 int main() {
-    // Variable declarations
+    /
     int bookID;
     int dueDate;
     int returnDate;
@@ -12,7 +12,7 @@ int main() {
     int fineRate;
     int fineAmount;
 
-    // i. Inputs from the user
+    
     printf("Enter Book ID: ");
     scanf("%d", &bookID);
 
@@ -22,12 +22,11 @@ int main() {
     printf("Enter Return Date (day of month): ");
     scanf("%d", &returnDate);
 
-    // ii. Calculate days overdue
+    
     daysOverdue = returnDate - dueDate;
 
-    // iii. Determine fine rate and total fine using if...else logic
     if (daysOverdue <= 0) {
-        daysOverdue = 0; // No overdue days if returned on or before due date
+        daysOverdue = 0; 
         fineRate = 0;
         fineAmount = 0;
     } 
@@ -44,7 +43,6 @@ int main() {
         fineAmount = daysOverdue * fineRate;
     }
 
-    // iv. Display the output details
     printf("\n--- Library Fine Summary ---\n");
     printf("Book ID       : %d\n", bookID);
     printf("Due Date      : %d\n", dueDate);
